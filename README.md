@@ -12,4 +12,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deploy
 
-The result is displayed in Firebase at the url [http:://asad.com](https://todoapp-angular-7ad37.web.app)
+The result is displayed in Firebase at the url [https://todoapp-angular-7ad37.web.app](https://todoapp-angular-7ad37.web.app)
