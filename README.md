@@ -2,7 +2,7 @@
 
 A modern, fast, and lightweight To-Do application built with **Angular 18**. This project is part of a learning path in Platzi's Angular courses, focusing on the latest features of the framework.
 
-[![Deploy to Firebase](https://img.shields.io/badge/Deploy-Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)](https://todoapp-angular-7ad37.web.app)
+[![Deploy to Firebase](https://img.shields.io/badge/Deploy-Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)](https://todoapp-angular-1d7c4.web.app)
 
 ## 🌟 Features
 
@@ -45,8 +45,30 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## 🌐 Deployment
 
-The project is currently deployed and available at:
-👉 [https://todoapp-angular-7ad37.web.app](https://todoapp-angular-7ad37.web.app)
+This project is configured for **Firebase Hosting**.
+
+### How to Deploy
+
+1.  **Firebase Tools**: Ensure you have the Firebase CLI installed:
+
+    ```bash
+    npm install -g firebase-tools
+    ```
+
+2.  **Authentication**: Login to your Firebase account (if you haven't already):
+
+    ```bash
+    firebase login
+    ```
+
+3.  **One-step Deploy**: Use the custom script added to `package.json`:
+    ```bash
+    npm run deploy
+    ```
+    _This command will build the project and deploy it to Firebase in a single step._
+
+The live application is available at:
+👉 [https://todoapp-angular-1d7c4.web.app](https://todoapp-angular-1d7c4.web.app)
 
 ## 📈 Current Status
 
